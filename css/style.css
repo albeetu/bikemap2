@@ -1,0 +1,58 @@
+body { 	font-family: Ruda; margin-top:0px; margin-right:10px; padding: 10px;
+				margin-bottom:0px; margin-left:8px; background-color: #98d5ec;  }
+				
+h1    {font-size: 28px; line-height: 26px; color: #FFF; padding-bottom: -20px;  margin-top: 1px; font-weight: 600}
+h2    {font-size: 24px; line-height: 20px; font-weight: 700; color: #FFF; padding-bottom: 10px;  margin-top: 20px; }
+h3    {font-size: 20px;  line-height: 20px; margin-bottom: 2px; padding-top: 4px;}
+h4    {font-size: 18px;  font-weight: 800;line-height: 18px; padding-bottom: -20px;  margin-top: 1px;}
+
+a 				{ text-decoration: none; color:#3366FF; }
+a:hover	 	{	text-decoration: none; color:#003366; }
+a:visited { text-decoration: none; color:#3366FF; }
+
+ul      { list-style-type: none; padding-left: 10px; }
+li:before { content: "› "; color: #38B8EB; }
+
+hr {
+  background-color:#a4e2fe; border-width:0; color:#a4e2fe; height:2px; line-height:10px;
+  padding-bottom: 2px; padding-top: 2px; page-break-after:always; display: block; width:100%;
+  -moz-border-radius: 3px; border-radius: 3px;
+}
+
+#main   { padding: 20px; background-image:url('bglines.png'); position: absolute; display: block;
+  width: 100%; height: 100%; margin: 20px; font-size: 12px }
+
+.photo-wrapper { position: left top; border-radius: 4px; position: relative; display:inline-block;  padding: 4px; }
+
+.caption { 
+   font-family: Ruda; font-weight: 300; font-size: 14px; color: #49caea;
+    background-color: #020D24; opacity:1; position: absolute; 
+    height: auto;  width: auto; overflow: hidden; 
+    left: 12px; bottom: 10px;
+}  
+
+
+#left   { margin-right:20px;  width: 48%; padding-right:10px;  font-size: 12px; position: absolute }
+#right  { padding: 2px; width: 40%; margin-left: 50%; font-size: 12px; position: absolute }
+
+#borderless-img { border: 0px; background-color: transparent; padding: 4px 10px 10px 0px; }
+#schools	{ border: 0px; background-color: transparent; padding: 16px 10px 0px 0px; }
+#table-bg { background-image:url('bglines.png'); }
+
+.img-border	{ border: 1px solid #38B8EB; padding: 0px; margin: 8px; border-radius: 3px;  display: inline-block }
+
+table, tr, td {  font-family: Ruda; line-height: 22px;
+									padding-left: 10px; padding-right: 20px; padding-top:10px; padding-bottom:8px; }
+
+.small 				{	font-size: 13px; color:#333333; }
+.regular			{ font-size: 15px; padding: 10px 20px 20px 0px; }
+.large 				{	font-size: 20px; font-weight: 500; }
+
+.quote				{	font-size: 11px; color:#999966; font-style:italic; }
+
+.home-link 		{	font-size: 22px; }
+
+.field 						{ font-size: 11px; color:#333333; background-color:#e4a223; }
+.btn_normal 			{ font-size: 11px; color:#333333; background-color:#BBBB66; }
+.header 					{ font-size: 12px; font-weight: bold; border-left: 		solid 1px #BBBB66; }
+
