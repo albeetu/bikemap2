@@ -36,9 +36,13 @@
                                            position.coords.longitude);
     
           var infowindow = new google.maps.InfoWindow({
-            map: map,
-            position: pos,
             content: 'We think this may be you'
+          });
+          
+          var marker = new google.maps.Marker({
+            position: pos,
+            map: map,
+            dragable: true
           });
     
           map.setCenter(pos);
